@@ -1,0 +1,16 @@
+create database compagniedb;
+use compagniedb;
+
+create table reservation(
+id integer primary key auto_increment,
+nom varchar(30) not null,
+prenom varchar(30) not null,
+sexe varchar(20) not null,
+adresse varchar(30) not null,
+telephone varchar(20),
+compagnie varchar(30) not null,
+date_depart date not null,
+source varchar(30) not null,
+destination varchar(30) not null,
+montant float not null,
+date_reservation date not null);

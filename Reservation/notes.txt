@@ -1,0 +1,8 @@
+1. J'ai créé la base de donnees du nom de compagniedb
+2. J'ai créé la table reservation qui contient 12 a l'interieur de la base de donnees
+3. J'ai cree un nouveau projet avec le nom Reservation
+4. J'ai cree 4 packages a l'interieur de mon projet 
+-package classes contient la classe d'objet reservation
+-package dao contient les classes Dao ReservationDao ConnectDB TestConnectDB
+-package form contient l'interface graphique 
+-package lib contient le jdbc pour la connexion a la base
